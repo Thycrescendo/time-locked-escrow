@@ -1,0 +1,14 @@
+@layer components {
+  .timeline-dot {
+    @apply w-4 h-4 bg-blue-500 rounded-full mt-1;
+  }
+  .chat-message {
+    @apply p-2 rounded-lg max-w-xs;
+  }
+  .chat-message-you {
+    @apply bg-blue-100 ml-auto;
+  }
+  .chat-message-other {
+    @apply bg-gray-200;
+  }
+}
